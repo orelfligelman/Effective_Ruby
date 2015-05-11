@@ -1,0 +1,44 @@
+module Best
+	def a 
+	puts "yes!"
+	end
+end
+
+class Bestest 
+	include Best
+	def a 
+	super	
+	end
+end
+
+b = Bestest.new
+b.a //yes!
+
+class Bullocks 
+	def bullet_operator(x)
+		if x 
+		y = x * 5 
+		puts y
+		else
+		puts "bullocks" 
+		end
+	end
+end
+
+class Balls < Bullocks 
+	def bullet_operator
+	super()
+	end
+end
+
+c = Balls.new
+c.bullet_operator //bullocks
+	end
+
+class SetMyAssOnFire
+	def value= x 
+	end
+end
+
+
+class Poker 

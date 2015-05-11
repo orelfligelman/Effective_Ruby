@@ -1,0 +1,3 @@
+class Reduce 
+def sum(enum)
+enum.reduce
